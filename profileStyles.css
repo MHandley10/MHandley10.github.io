@@ -56,13 +56,6 @@ a.navigation:hover, a.navigation:active, a.navigation:focus{
     color:aliceblue;
 }
 
-a#current:link, a#current:visited{
-}
-
-a#current:hover, a#current:active, a#current:focus{
-    color:aliceblue;
-}
-
 .flex-container {
     display: flex;
     flex-direction:row;
