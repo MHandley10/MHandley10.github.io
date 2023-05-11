@@ -1,0 +1,150 @@
+
+/* the html element selector means all of those elements */
+li {
+    color:darksalmon;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* id selector */
+
+/* class selectors */
+
+.btn {
+    /* come back to */
+}
+
+/* wildcard selectors */
+* {
+    /* for everything */
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+body {
+
+    background-color:rgb(31, 29, 29);
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+nav {
+    font-size: 120%;
+    border-color: aliceblue;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color:aliceblue;
+}
+.navigation{
+    margin-left:1%;
+    border-color: aliceblue;
+}
+
+a.navigation:link {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+a.navigation:visited {
+    text-decoration: none;
+    color:darksalmon;
+}
+
+a.navigation:hover, a.navigation:active, a.navigation:focus{
+    color:aliceblue;
+}
+
+a#current:link, a#current:visited{
+}
+
+a#current:hover, a#current:active, a#current:focus{
+    color:aliceblue;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 5vw;
+    margin-top: 25px;
+    border-bottom: 5px solid darksalmon;
+}
+
+header {
+    text-align: center;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 25%;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid rgb(82, 82, 82);
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 15%;
+    min-width: 15%;
+}
+
+#overview {
+    color:aliceblue;
+    width:25%;
+    min-width:33%;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h3 {
+    color:aliceblue;
+    font-size: 130%;
+    padding-top: 10px;
+}
+
+#projectHeading{
+    text-align: center;
+    padding: 4%;
+    font-size:400%
+}
+
+.box-1 {
+    background-color: rgba(255,255,255, 0.2);
+    color:aliceblue;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+}
+
+form {
+    padding: 15px;
+}
+
+#search {
+}
+
+.table {
+    padding: 1500px;
+}
+
+th, td{
+    text-align: center;
+    color:aliceblue;
+}
+
+a.gitLink:link, a.gitLink:visited {
+    text-decoration: none;
+    color:darksalmon;
+}
+
+a.gitLink:hover, a.gitLink:active, a.gitLink:focus{
+    color:aliceblue;
+}
+
+#game-container {
+    color:aliceblue;
+    padding-top: 50px;
+}

@@ -7,60 +7,84 @@
     <meta name="desription" content="Matthew Handleys' personal profile">
     <meta name="keywords" content="portfolio, profile, sparta, global, sparta global, c#, developer, software developer, development, software development">
     
-    <title>My Profile</title>
+    <title>Matthew Handleys' Profile</title>
 
     <!-- links to external resources also put in the meta -->
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="profileStyles.css" rel="stylesheet">
 
+    <script defer>
+        console.loge("Page loaded successfully")
+    </script>
+
+    
 </head>
 
-<body>
-    <nav>
-        <ul>
-        <li><a href="index.html">Go to profile</a></li>
-        <li><a href="projects.html">Go to projects</a></li>
-        <li><a href="https://www.linkedin.com/in/peter-bellaby-40b93022b/" target="_blank">My LinkedIn</a></li>
-        </ul>
-        </nav>
-
-
+<body class="container">
+    <nav class="flex-container">
+        <a class="navigation" id="current" href="index.html">Go to profile</a>
+        <a class="navigation" href="projects.html" target="_blank">Go to projects</a>
+        <a class="navigation" href="https://www.linkedin.com/in/matthew-d-handley" target="_blank">My LinkedIn</a>
+        <a class="navigation" href="https://github.com/MHandley10/" targe="_blank">My Github</a>
+    </nav>
 
 <header>
 <h1>My Profile</h1>
 <h2>Matthew Handley</h2>
-<p><em>Overview</em> of <strong>profile</strong> goes here</p>
-<img src="images/profile_picture.jpg" alt="A Profile picture of Me, Matthew Handley" width="200px">
 </header>
-<section>
+
+<figure>
+<img src="images/profile_picture.jpg" alt="A Profile picture of Me, Matthew Handley" width="200px">
+</figure>
+
+<section id="overview">
+    <p>
+        Welcome to my profile page! My name is Matthew Handley (you probably already knew that though)
+        and I am a Software Developer. My current experience is using C# for back-end Web Development,
+        with a good appreciation of front-end techniques and practices.
+    </p>
+</section>
+
+<section class="box-1">
 <h3>My Skills</h3>
 
 <ul>
     <li>Agile and Scrum methodologies</li>
     <li>ASP.NET</li>
-    <li></li>
-
+    <li>C#</li>
+    <li>Microsoft Entity Framework</li>
+    <li>LINQ Query and Method Syntax</li>
+    <li>Mock testing with and without MOQ Framework</li>
+    <li>Version control using Git and Github</li>
+    <li>Design Patterns</li>
 </ul>
+
 </section>
-<section>
+
+<section class="box-1">
 <h3>My Hobbies</h3>
 <ul>
-    <li>Games</li>
-    <li>candlemaking</li>
-    <li>hiking</li>
+    <li>Cooking (particularly baking)</li>
+    <li>Reading (Favourite Authors: Terry Pratchett, Stephen Erikson)</li>
+    <li>Video Games</li>
+    <li>Candlemaking</li>
+    <li>Hiking</li>
 
 </ul>
 </section>
-<section>
+
+<section class="box-1">
 <h3>My Goals</h3>
 <ol>
     <li>Excel as a consultant</li>
     <li>Be taken on permanently</li>
+    <li>Finish my degree in Computing and IT with a 1st</li>
     <li>Move abroad, specifically the US or Canada</li>
 
 </ol>
 </section>
-<footer>
+
+<footer class="box-1">
     <h4>My Searchbar</h4>
     <!--<form action="mysite.com/api/customers" method="POST"> -->
     <form action="https://bbc.co.uk/search" target="_blank">
@@ -70,6 +94,11 @@
     </form>
     <small>Copyright &#169; Sparta Global 2023 <cite>by M. Handley</cite></small>
 </footer>
+
+
+<script>
+    console.log("Page loaded successfully")
+</script>
 </body>
 
 </html>
